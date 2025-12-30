@@ -1,0 +1,3 @@
+module VUDial {
+    header "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/include/VUDial-Swift.h"
+}

@@ -1,0 +1,692 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo_VUDialDemo.bundle/Assets.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/Resources/Assets.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo_VUDialDemo.bundle/Assets.xcassets"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.VUDial-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/sources",
+      "importPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/ImageProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/SerialPortManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/VUDialProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Models/Dial.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/ViewModels/DialManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialControlView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialDiscoveryView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialBuffer.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialPacketDescriptor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialPort.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialPortManager.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VUDial",
+      "moduleOutputPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules/VUDial.swiftmodule",
+      "objects" : [
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/Dial.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialManager.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/checkouts/ORSSerialPort/Source",
+        "-module-cache-path",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/include/VUDial-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "vudial"
+      ],
+      "outputFileMapPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/Dial.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules/VUDial.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/ImageProcessor.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/SerialPortManager.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/VUDialProtocol.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Models/Dial.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/ViewModels/DialManager.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialControlView.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialDiscoveryView.swift"
+      ],
+      "tempsPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VUDialDemo-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/sources",
+      "importPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/VUDialDemoApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<VUDialDemo-arm64-apple-macosx26.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules/VUDial.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "VUDialDemo",
+      "moduleOutputPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules/VUDialDemo.swiftmodule",
+      "objects" : [
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/ContentView.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/VUDialDemoApp.swift.o",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/checkouts/ORSSerialPort/Source",
+        "-module-cache-path",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "VUDialDemo_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "vudialdemo"
+      ],
+      "outputFileMapPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/VUDialDemoApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules/VUDialDemo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/ContentView.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/VUDialDemoApp.swift",
+        "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "VUDial" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VUDial",
+      "-package-name",
+      "vudial",
+      "-c",
+      "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/ImageProcessor.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/SerialPortManager.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/VUDialProtocol.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Models/Dial.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/ViewModels/DialManager.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialControlView.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialDiscoveryView.swift",
+      "-I",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/checkouts/ORSSerialPort/Source",
+      "-module-cache-path",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/include/VUDial-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "vudial",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VUDialDemo" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VUDialDemo",
+      "-package-name",
+      "vudialdemo",
+      "-c",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/ContentView.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/VUDialDemoApp.swift",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/checkouts/ORSSerialPort/Source",
+      "-module-cache-path",
+      "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "VUDialDemo_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "vudialdemo",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ORSSerial" : [
+
+    ],
+    "VUDial" : [
+      "ORSSerial"
+    ],
+    "VUDialDemo" : [
+      "VUDial",
+      "ORSSerial"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/ImageProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/SerialPortManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/VUDialProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Models/Dial.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/ViewModels/DialManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialControlView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialDiscoveryView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/sources"
+    },
+    "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo-entitlement.plist"
+    },
+    "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/Sources/VUDialDemo/VUDialDemoApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/sources"
+    },
+    "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialBuffer.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialPacketDescriptor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialPort.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialPortManager.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/ORSSerial.build/ORSSerialRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/Dial.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/DialManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/VUDialDemoApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/VUDialDemo.product/Objects.LinkFileList"
+    },
+    "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

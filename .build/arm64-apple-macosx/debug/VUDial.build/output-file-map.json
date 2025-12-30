@@ -1,0 +1,61 @@
+{
+  "": {
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/master.swiftdeps"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/ImageProcessor.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/ImageProcessor.dia"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/SerialPortManager.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/SerialPortManager.dia"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Hardware/VUDialProtocol.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialProtocol.dia"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Models/Dial.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/Dial.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/Dial.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/Dial~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/Dial.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/Dial.dia"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/VUDialClient.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialClient.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialClient.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialClient.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/VUDialClient.dia"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/ViewModels/DialManager.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialManager.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialManager.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialManager.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialManager.dia"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialControlView.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialControlView.dia"
+  },
+  "/Users/marcoluthi/Swift Development/VUDial/Sources/VUDial/Views/DialDiscoveryView.swift": {
+    "dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView.d",
+    "object": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView.swift.o",
+    "swiftmodule": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView.swiftdeps",
+    "diagnostics": "/Users/marcoluthi/Swift Development/VUDial/.build/arm64-apple-macosx/debug/VUDial.build/DialDiscoveryView.dia"
+  }
+}

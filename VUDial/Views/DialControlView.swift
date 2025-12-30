@@ -176,11 +176,34 @@ struct DialControlView: View {
         case .success(let urls):
             guard let url = urls.first else { return }
 
-            // Load image
-            guard let nsImage = NSImage(contentsOf: url) else {
-                print("❌ Failed to load image")
+            // Start security-scoped access (required for sandboxed apps)
+            let hasAccess = url.startAccessingSecurityScopedResource()
+            if !hasAccess {
+                print("⚠️ Could not get security-scoped access, trying direct load...")
+            }
+
+            // Load image data synchronously while we have access
+            let imageData: Data?
+            do {
+                imageData = try Data(contentsOf: url)
+            } catch {
+                print("❌ Failed to read image data: \(error)")
+                if hasAccess { url.stopAccessingSecurityScopedResource() }
                 return
             }
+
+            // Stop security-scoped access now that we have the data
+            if hasAccess {
+                url.stopAccessingSecurityScopedResource()
+            }
+
+            // Create image from data
+            guard let data = imageData, let nsImage = NSImage(data: data) else {
+                print("❌ Failed to create image from data")
+                return
+            }
+
+            print("✅ Loaded image: \(nsImage.size.width)x\(nsImage.size.height)")
 
             // Upload image
             isUploadingImage = true

@@ -1,0 +1,4 @@
+module ORSSerial {
+    umbrella "/Users/marcoluthi/Swift Development/VUDial/Examples/VUDialDemo/.build/checkouts/ORSSerialPort/Source"
+    export *
+}

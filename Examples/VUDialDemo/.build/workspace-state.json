@@ -1,0 +1,44 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "orsserialport",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/armadsen/ORSSerialPort.git",
+          "name" : "ORSSerialPort"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "58a8cc454304e22280f184c2d2e25ecb3d5a74c5",
+            "version" : "2.1.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "ORSSerialPort"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "vudial",
+          "kind" : "fileSystem",
+          "location" : "/Users/marcoluthi/Swift Development/VUDial",
+          "name" : "VUDial"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/marcoluthi/Swift Development/VUDial"
+        },
+        "subpath" : "vudial"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
