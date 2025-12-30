@@ -59,10 +59,24 @@ struct ContentView: View {
         .onAppear {
             // Initialize DialManager with model context
             if dialManager == nil {
-                dialManager = DialManager(
+                let manager = DialManager(
                     serialManager: serialManager,
                     modelContext: modelContext
                 )
+                dialManager = manager
+                
+                // Auto-connect and scan
+                // We do this immediately after initialization to ensure it happens on app launch
+                if !serialManager.isConnected {
+                    print("🚀 Auto-connecting to VU Hub...")
+                    if manager.connect() {
+                        Task {
+                            // Small delay to ensure connection is fully established
+                            try? await Task.sleep(nanoseconds: 500_000_000) // 0.5s
+                            await manager.scanForDials()
+                        }
+                    }
+                }
             }
         }
         .onChange(of: dialManager?.lastError) { oldValue, newValue in

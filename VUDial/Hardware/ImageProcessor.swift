@@ -92,42 +92,46 @@ struct ImageProcessor {
 
     /// Convert image to grayscale bitmap
     private static func convertToGrayscale(_ image: NSImage) -> [UInt8]? {
-        guard let cgImage = image.cgImage(forProposedRect: nil, context: nil, hints: nil) else {
-            return nil
-        }
-
-        let width = cgImage.width
-        let height = cgImage.height
-        print("   CGImage dimensions: \(width)×\(height)")
-
-        // Log dimensions
-        if width != displayWidth || height != displayHeight {
-            print("   ⚠️  WARNING: CGImage size \(width)×\(height) doesn't match display \(displayWidth)×\(displayHeight)!")
-        }
-
-        // Create grayscale context
+        // Enforce exact display dimensions for the context
+        // This ensures that even if the NSImage is high-DPI (retina), we downsample to 200x144
+        let width = displayWidth
+        let height = displayHeight
+        
         let colorSpace = CGColorSpaceCreateDeviceGray()
+        // Use standard bitmap info; no alpha
         let bitmapInfo = CGImageAlphaInfo.none.rawValue
 
+        // Create context with exact dimensions and 0 stride (system calculated)
         guard let context = CGContext(
             data: nil,
             width: width,
             height: height,
             bitsPerComponent: 8,
-            bytesPerRow: width,
+            bytesPerRow: 0,
             space: colorSpace,
             bitmapInfo: bitmapInfo
         ) else {
+            print("❌ Failed to create bitmap context")
             return nil
         }
-
-        // CRITICAL: CGContext has origin at bottom-left, but PIL/images have origin at top-left
-        // Flip Y-axis to match PIL's coordinate system
-        context.translateBy(x: 0, y: CGFloat(height))
-        context.scaleBy(x: 1.0, y: -1.0)
-
-        // Draw image into grayscale context
+        
+        let bytesPerRow = context.bytesPerRow
+        
+        // Removed coordinate flip: User reported image was upside down with the flip.
+        // Standard CGContext drawing should produce correct orientation for this display.
+        // If image is still wrong, we might need to check the source image orientation.
+        
+        // Draw the image into the context, scaling to fit exactly
         let rect = CGRect(x: 0, y: 0, width: width, height: height)
+        
+        // Get the CGImage from the NSImage
+        // We propose the exact rect we want, to let NSImage generate the best representation
+        var proposedRect = NSRect(x: 0, y: 0, width: width, height: height)
+        guard let cgImage = image.cgImage(forProposedRect: &proposedRect, context: nil, hints: nil) else {
+            print("❌ Failed to get CGImage")
+            return nil
+        }
+        
         context.draw(cgImage, in: rect)
 
         // Extract pixel data
@@ -135,10 +139,21 @@ struct ImageProcessor {
             return nil
         }
 
-        let buffer = data.bindMemory(to: UInt8.self, capacity: width * height)
-        let pixels = Array(UnsafeBufferPointer(start: buffer, count: width * height))
-        print("   Extracted \(pixels.count) pixels from CGContext")
-
+        let buffer = data.bindMemory(to: UInt8.self, capacity: bytesPerRow * height)
+        
+        // Compact the buffer: remove padding bytes if bytesPerRow > width
+        var pixels = [UInt8](repeating: 0, count: width * height)
+        
+        for y in 0..<height {
+            let srcRowStart = y * bytesPerRow
+            let dstRowStart = y * width
+            
+            for x in 0..<width {
+                pixels[dstRowStart + x] = buffer[srcRowStart + x]
+            }
+        }
+        
+        print("   Converted to grayscale: \(width)x\(height) (buffer size: \(pixels.count))")
         return pixels
     }
 
