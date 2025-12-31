@@ -1,4 +1,4 @@
-# VUDial
+# SwiftVUDial
 
 A native Swift package for controlling [VU1 Dials](https://vu1.io) — physical analog gauge displays featuring e-paper screens and RGB backlighting. Built with SwiftUI, SwiftData, and modern Swift concurrency.
 
@@ -31,7 +31,7 @@ Add VUDial to your Xcode project:
 2. Go to **File → Add Package Dependencies...**
 3. Enter the repository URL:
    ```
-   https://github.com/MarcoLuthi/VUDial
+   https://github.com/MarcoLuthi/SwiftVUDial
    ```
 4. Select **Up to Next Major Version** from `1.0.0`
 5. Click **Add Package**
@@ -40,7 +40,7 @@ Or add it directly to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/MarcoLuthi/VUDial", from: "1.0.0")
+    .package(url: "https://github.com/MarcoLuthi/SwiftVUDial", from: "1.0.0")
 ],
 targets: [
     .target(
